@@ -42,7 +42,7 @@ h2 {
 
 .main-board {
   padding: 1.5em 0.75em;
-  height: 100vh;
+  height: 100%;
   background-color: #f4f7fd;
 }
 .task-wrapper {
@@ -59,4 +59,10 @@ h2 {
   align-items: center;
   justify-content: space-around;
   padding: 0 12px 15px 12px;
+}
+.button {
+  background-color: #635fc7;
+  border-radius: 24px;
+  padding: 6px 18px;
+  border: 0;
 }
