@@ -4,5 +4,12 @@ function edit () {
     console.log(editBoxEls[0]);
     editBoxEls[0].style.zIndex = 1
 }
+function deleteClick () {
+    const deleteBoxEls = document.getElementsByClassName('delete-box');
+    deleteBoxEls[0].style.display = 'block'
+}
 
-let arr = [2, 4];
+function cancel () {
+    const cancelButtonEls = document.getElementsByClassName('edit-box');
+    cancelButtonEls.style.zIndex = -1
+}

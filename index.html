@@ -27,7 +27,7 @@
                 </label>
                 <div class="hidden-dropdown-menu">
                    <div onclick="edit()" class="hidden-dropdown-menu-edit">Edit Board</div>
-                   <div class="hidden-dropdown-menu-warning">Delete Board</div>
+                   <div onclick="deleteClick()" class="hidden-dropdown-menu-warning">Delete Board</div>
                 </div>
 
             </div>
@@ -170,16 +170,26 @@
     </div>
     <div class="edit-box-footer">
         <div class="edit-box-footer-buttons">
-            <button class="btn-primary">Save</button>
-            <button class="btn-secondary">Cancel</button>
+            <button class="save-button">Save</button>
+            <button onclick="cancel()" class="cancel-button">Cancel</button>
         </div>
     </div>
+</div>
 
 
-
-
-
-
+<div class="delete-box">
+    <div class="delete-box-header">Delete Board</div>
+    <div class="delete-box-body">
+        <p>Are you sure you want to delete the board?
+        <br>This action will delete all the columns and tasks in this board and can not be reversed.
+        </p>
+    </div>
+    <div class="delete-box-footer">
+        <div class="delete-box-footer-buttons">
+            <button class="delete-button">Delete</button>
+            <button class="cancel-button">Cancel</button>
+        </div>
+    </div>
 </div>
 
 

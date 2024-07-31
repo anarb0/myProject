@@ -148,7 +148,7 @@ h2 {
   font-weight: 700;
   border-radius: 20px;
   cursor: pointer; */ 
-.btn-primary {
+.save-button {
   background-color: #635fc7;
   color: #fff;
   font-size: 13px;
@@ -159,9 +159,50 @@ h2 {
   padding: 8px 24px;
   width: calc(50% - 10px);
 }
-.btn-secondary {
+.cancel-button {
   background-color: rgba(99, 95, 199, .1);
   color: #635fc7;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  padding: 8px 24px;
+  width: calc(50% - 10px);
+}
+.delete-box {
+  padding: 20px;
+  border-radius: 6px;
+  width: calc(100% - 40px);
+  box-shadow: 0 4px 6px rgba(54, 78, 126, .101545);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  display: none;
+}
+.delete-box-header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #ea5555;
+}
+.delete-box-body {
+  margin-bottom: 24px;
+}
+.delete-box-body>p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #828fa3;
+}
+.delete-box-footer-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.delete-button {
+  background-color: #ea5555;
+  color: #fff;
   font-size: 13px;
   font-weight: 700;
   border-radius: 20px;
