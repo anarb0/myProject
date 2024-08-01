@@ -19,7 +19,9 @@ body {
 h2 {
   margin: 0;
 }
-
+.header {
+  background-color: white;
+}
 .header-content {
   display: flex;
   align-items: center;
@@ -115,6 +117,7 @@ h2 {
   transform: translate(-50%, -50%);
   display: none;
   background-color: #fff;
+  z-index: 9;
 }
 .edit-box-header {
   font-size: 18px;
@@ -245,6 +248,15 @@ h2 {
   padding: 8px 24px;
   width: 100%;
   opacity: .25;
+}
+#dim {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -100;
+  background-color: black;
+  opacity: .35;
 }
 
 
