@@ -29,7 +29,6 @@
                    <div onclick="edit()" class="hidden-dropdown-menu-edit">Edit Board</div>
                    <div onclick="deleteClick()" class="hidden-dropdown-menu-warning">Delete Board</div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -42,7 +41,9 @@
     <div class="columns">
         <div class="main-board-column">
             <div class="column-title">
-                <h4>To Do</h4>
+                <h4>
+                    To Do
+                </h4>
                 <div class="dropdown-menu">
                     <button class="meatball-button">
                         <svg data-v-f85a4b1e="" width="21" height="6" viewBox="0 0 21 6" fill="none" xmlns="http://www.w3.org/2000/svg"><circle data-v-f85a4b1e="" cx="17.9999" cy="3.00008" r="2.30769" transform="rotate(90 17.9999 3.00008)" fill="#828FA3"></circle><circle data-v-f85a4b1e="" cx="10.3075" cy="3.00008" r="2.30769" transform="rotate(90 10.3075 3.00008)" fill="#828FA3"></circle><circle data-v-f85a4b1e="" cx="2.61516" cy="3.00008" r="2.30769" transform="rotate(90 2.61516 3.00008)" fill="#828FA3"></circle></svg>
@@ -190,6 +191,35 @@
             <button class="cancel-button">Cancel</button>
         </div>
     </div>
+</div>
+
+
+<div class="task-add-box">
+    <div class="task-add-box-header">Add New Task</div>
+    <div class="task-add-box-body">
+        <div class="task-add-box-body-form">
+            <label for="task-title">Title</label>
+            <input type="text" id="task-title" class="form-input">
+        </div>
+        <div class="task-add-box-body-form">
+            <label for="task-description">Description</label>
+            <input type="text" id="task-description" class="form-input">
+        </div>
+        <div class="task-add-box-body-form">
+            <label for="status-select">Status</label>
+            <select name="status" id="status-select" class="form-input">
+                <option value="">Select a Status</option>
+                <option value="">To Do</option>
+                <option value="">In Progress</option>
+                <option value="">In Review</option>
+                <option value="">Done</option>
+            </select>
+        </div>
+    </div>
+    <div class="task-add-box-footer">
+        <button class="add-button">Add</button>
+    </div>
+
 </div>
 
 

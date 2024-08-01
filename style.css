@@ -211,3 +211,39 @@ h2 {
   padding: 8px 24px;
   width: calc(50% - 10px);
 }
+.task-add-box {
+  padding: 20px;
+  border-radius: 6px;
+  width: calc(100% - 40px);
+  box-shadow: 0 4px 6px rgba(54, 78, 126, .101545);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  /* display: none; */
+}
+.task-add-box-header {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.task-add-box-body-form>label {
+  display:block;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.add-button {
+  background-color: rgba(99, 95, 199, .1);
+  color: #635fc7;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  padding: 8px 24px;
+  width: 100%;
+}
+
+

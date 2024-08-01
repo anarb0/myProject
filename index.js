@@ -1,6 +1,5 @@
 function edit () {
     const editBoxEls = document.getElementsByClassName('edit-box');
-
     console.log(editBoxEls[0]);
     editBoxEls[0].style.zIndex = 1
 }
@@ -11,5 +10,5 @@ function deleteClick () {
 
 function cancel () {
     const cancelButtonEls = document.getElementsByClassName('edit-box');
-    cancelButtonEls.style.zIndex = -1
+    cancelButtonEls.style.display = 'none'
 }
