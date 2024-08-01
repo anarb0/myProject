@@ -113,7 +113,7 @@ h2 {
   top: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
-  z-index: -1;
+  display: none;
   background-color: #fff;
 }
 .edit-box-header {
@@ -221,7 +221,7 @@ h2 {
   position: absolute;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  /* display: none; */
+  display: none;
 }
 .task-add-box-header {
   font-size: 18px;
@@ -244,6 +244,7 @@ h2 {
   border: 0;
   padding: 8px 24px;
   width: 100%;
+  opacity: .25;
 }
 
 

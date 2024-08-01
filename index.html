@@ -18,7 +18,7 @@
     <div class="header-content">
         <h2 class="board-name">Making Project</h2>
         <div class="header-action">
-            <button class="btn-task-add">+</button>
+            <button onclick="add()" class="btn-task-add">+</button>
             <div class="dropdown-menu">
                 <input id="dropdown" type="checkbox">
                 <label for="dropdown">
@@ -53,20 +53,20 @@
             <div class="column-task-list">
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>AHJDKheuikfhsfhksu</h5>
-                        <p>sdkfskdnfsjdfnsdfns</p>
+                        <h5>Task 1</h5>
+                        <p>aaaa</p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task 2</h5>
+                        <p>aaaaa</p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task 3</h5>
+                        <p>aaaaa</p>
                     </div>
                 </div>
             </div>
@@ -83,14 +83,14 @@
             <div class="column-task-list">
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>AHJDKheuikfhsfhksu</h5>
-                        <p>sdkfskdnfsjdfnsdfns</p>
+                        <h5>Task 4</h5>
+                        <p>aaaaa</p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task 5</h5>
+                        <p>aaaa</p>
                     </div>
                 </div>
             </div>
@@ -107,20 +107,20 @@
             <div class="column-task-list">
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>AHJDKheuikfhsfhksu</h5>
-                        <p>sdkfskdnfsjdfnsdfns</p>
+                        <h5>Task</h5>
+                        <p>aaaa</p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task</h5>
+                        <p>aaaa</p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task</h5>
+                        <p>Task</p>
                     </div>
                 </div>
             </div>
@@ -138,20 +138,20 @@
             <div class="column-task-list">
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>AHJDKheuikfhsfhksu</h5>
-                        <p>sdkfskdnfsjdfnsdfns</p>
+                        <h5>Task</h5>
+                        <p></p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task</h5>
+                        <p></p>
                     </div>
                 </div>
                 <div class="task-wrapper">
                     <div class="task">
-                        <h5>Tasksafasfasfasfasf</h5>
-                        <p>asfafasfasafs</p>
+                        <h5>Task</h5>
+                        <p>aaaaaa</p>
                     </div>
                 </div>
             </div>
@@ -172,7 +172,7 @@
     <div class="edit-box-footer">
         <div class="edit-box-footer-buttons">
             <button class="save-button">Save</button>
-            <button onclick="cancel()" class="cancel-button">Cancel</button>
+            <button onclick="cancel(event)" class="cancel-button" id="edit-cancel">Cancel</button>
         </div>
     </div>
 </div>
@@ -188,7 +188,7 @@
     <div class="delete-box-footer">
         <div class="delete-box-footer-buttons">
             <button class="delete-button">Delete</button>
-            <button class="cancel-button">Cancel</button>
+            <button onclick="cancel(event)" class="cancel-button" id="delete-cancel">Cancel</button>
         </div>
     </div>
 </div>
