@@ -9,6 +9,8 @@ function edit () {
 function deleteClick () {
     const deleteBoxEls = document.getElementsByClassName('delete-box');
     deleteBoxEls[0].style.display = 'block'
+    const dim = document.getElementById('dim');
+    dim.style.zIndex = 8;
 }
 
 function cancel (event) {
@@ -24,6 +26,8 @@ function cancel (event) {
 function add () {
     const addTaskBoxEls = document.getElementsByClassName('task-add-box');
     addTaskBoxEls[0].style.display = 'block'
+    const dim = document.getElementById('dim');
+    dim.style.zIndex = 8;
 }
 
 function everywhereCancel () {
@@ -31,4 +35,8 @@ function everywhereCancel () {
     dim.style.zIndex = -100;
     const editBoxEls = document.getElementsByClassName('edit-box');
     editBoxEls[0].style.display = 'none'
+    const deleteBoxEls = document.getElementsByClassName('delete-box');
+    deleteBoxEls[0].style.display = 'none'
+    const addTaskBoxEls = document.getElementsByClassName('task-add-box');
+    addTaskBoxEls[0].style.display = 'none'
 }
