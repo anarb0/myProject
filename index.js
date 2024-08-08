@@ -1,10 +1,10 @@
 function edit () {
     const editBoxEls = document.getElementsByClassName('edit-box');
-    // const hiddenMenu = docume.getElementsByClassName('hidden-dropdown-menu');
-    // hiddenMenu[0].style.display = 'none'
     editBoxEls[0].style.display = 'block'
     const dim = document.getElementById('dim');
     dim.style.zIndex = 8;
+    // const hiddenMenu = document.getElementsByClassName('hidden-dropdown-menu');
+    // hiddenMenu[0].style.display = 'none'
 }
 function deleteClick () {
     const deleteBoxEls = document.getElementsByClassName('delete-box');
